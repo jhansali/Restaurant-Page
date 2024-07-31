@@ -1,0 +1,44 @@
+.menu {
+    text-align: center;
+  }
+  
+  .menu h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .menu li {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .menu li h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .menu li p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .menu li span {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+  }
+  
